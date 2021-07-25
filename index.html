@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Générateur de citations</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <div id="root">
+        <fieldset>
+            <legend class="lengend">
+                <div class="logo">
+                    <img src="./logo.jpg" />
+                </div>
+            </legend>
+
+            <div class="quote" id="quote-container">
+                <div class="quote-body">
+                    <div class="quote-container">
+                        <div class="quote-left-icon">
+                            <span class="icon"><i class="fas fa-quote-left"></i></span>
+                        </div>
+                        <div class="quote-content">
+                            <p id="quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate odit quae exercitationem ad non itaque deleniti quod, accusantium dignissimos ut eaque. Blanditiis rerum repellendus quaerat esse consectetur odio vero exercitationem.</p>
+                        </div>
+                        <div class="quote-right-icon">
+                            <span class="icon"><i class="fas fa-quote-right"></i></span>
+                        </div>
+                    </div>
+                    <div class="quote-author">
+                        <p id="author">John Doe</p>
+                    </div>
+                </div>
+                <div class="quote-footer">
+                    <div class="quote-footer-content">
+                        <div class="left">
+                            <a href="https://twitter.com/intent/tweet"  id="twitter">
+                                <span class="icon">
+                                    <i class="fab fa-twitter"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="right" id="new-quote">
+                            <span class="icon">
+                                <i class="fab fa-wpexplorer"></i>
+                            </span>
+                            <span>
+                                Nouvelle Citation
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="loader" class="loader">
+                <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+            </div>
+        </fieldset>
+
+    </div>
+    <!-- Reference au script -->
+    <script src="./script.js"></script>
+</body>
+</html>
